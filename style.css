@@ -380,6 +380,9 @@ ul {
     border: 1px solid rgba(0, 0, 0, 0.06);
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
 }
 
 .edu-item::before {
@@ -447,18 +450,6 @@ ul {
     display: block; 
 }
 
-.edu-item {
-    position: relative;
-    padding: 2rem 2rem;
-    margin-bottom: 2rem;
-    background: rgba(255, 255, 255, 0.85);
-    border: 1px solid rgba(0, 0, 0, 0.06);
-    border-radius: 16px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
-    display: flex;
-    flex-direction: column; /* Tumpuk gambar dan teks secara vertikal */
-    align-items: flex-start;
-}
 
 /* ------------------- */
 /* Skills Section      */

@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!-- Bagian head: meta info, font, icon, css -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
@@ -11,11 +12,13 @@
 </head>
 
 <body>
+    <!-- HEADER / NAVBAR -->
     <header class="main-header">
         <nav class="navbar">
             <div class="logo">
                 <span>Faiz</span>
             </div>
+            <!-- Menu navigasi utama -->
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -24,10 +27,13 @@
                 <li><a href="#portfolio">Projects</a></li>
                 <li class="contact-btn"><a href="#contact">Contact</a></li>
             </ul>
+
+            <!-- Menu hamburger (untuk mobile) -->
             <input type="checkbox" id="menu-toggle">
             <label for="menu-toggle" class="hamburg">☰</label>
             <label for="menu-toggle" class="cancel">✖</label>
 
+            <!-- Dropdown menu mobile -->
             <div class="dropdown">
                 <ul class="links">
                     <li><a href="#">Home</a></li>
@@ -41,6 +47,7 @@
     </header>
 
     <main>
+        <!-- SECTION HOME / MAIN INTRO -->
         <section class="main-section">
             <div class="main-container">
                 <div class="img">
@@ -53,27 +60,25 @@
                         Saya sedang menjalani program studi Teknik Informatika di Politeknik Negeri Bandung (POLBAN).
                         Saya memiliki minat besar di bidang pemrograman, pengembangan web, serta pengembangan game.
                     </p>
+                    <!-- Link sosial media -->
                     <div class="social-links">
                         <a href="https://github.com/MFaizR77" target="_blank"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://instagram.com/mfaiz_ramd" target="_blank"><i
-                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://instagram.com/mfaiz_ramd" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                         <a href="https://wa.me/6282219148494" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- SECTION ABOUT -->
         <section id="about" class="about">
             <div class="about-content">
                 <h2 class="about-title">
                     <span class="dot"></span> About Me
                 </h2>
                 <p>
-                    Halo! Saya Faiz, mahasiswa program studi <b>Teknik Informatika di Politeknik Negeri Bandung
-                        (POLBAN)</b>.
+                    Halo! Saya Faiz, mahasiswa program studi <b>Teknik Informatika di Politeknik Negeri Bandung (POLBAN)</b>.
                     Saya memiliki ketertarikan pada dunia pemrograman, pengembangan aplikasi web, dan pembuatan game 2D.
-                    Saya senang belajar hal-hal baru dan selalu bersemangat untuk mengembangkan keterampilan saya di
-                    bidang teknologi.
                 </p>
                 <ul>
                     <li><b>Domisili:</b> Bandung</li>
@@ -86,39 +91,37 @@
             </div>
         </section>
 
-
+        <!-- SECTION EDUCATION -->
         <section id="education" class="edu-section">
             <h2 class="section-title">
                 <span class="dot"></span> Education
             </h2>
 
+            <!-- Timeline pendidikan -->
             <div class="edu-timeline">
                 <article class="edu-item">
                     <div class="edu-header">
                         <h3 class="edu-degree">D3 Teknik Informatika</h3>
                         <div class="edu-school">Politeknik Negeri Bandung (POLBAN)</div>
-                        <div class="edu-meta">
-                            2024 — Sekarang
-                        </div>
+                        <div class="edu-meta">2024 — Sekarang</div>
                     </div>
                     <img src="Foto/Polban.svg" alt="POLBAN Logo" class="edu-image">
                     <p class="edu-desc">
-                        Fokus pada pemrograman, struktur data, basis data, rekayasa perangkat lunak, dan pengembangan
-                        aplikasi berbasis web.
+                        Fokus pada pemrograman, struktur data, basis data, rekayasa perangkat lunak, dan pengembangan aplikasi berbasis web.
                     </p>
                 </article>
 
+                <!-- Riwayat SMA -->
                 <article class="edu-item">
                     <div class="edu-header">
                         <h3 class="edu-degree">SMA/MA IPA</h3>
                         <div class="edu-school">MAN 2 KOTA BANDUNG</div>
-                        <div class="edu-meta">
-                            2021 — 2024
-                        </div>
+                        <div class="edu-meta">2021 — 2024</div>
                     </div>
                     <img src="Foto/Man2.jpeg" alt="MAN 2 Logo" class="edu-image">
                 </article>
 
+                <!-- Riwayat SMP -->
                 <article class="edu-item">
                     <div class="edu-header">
                         <h3 class="edu-degree">SMP</h3>
@@ -128,24 +131,25 @@
                     <img src="Foto/Baknus.jpeg" alt="BAKNUS Logo" class="edu-image">
                 </article>
 
+                <!-- Riwayat SD -->
                 <article class="edu-item">
                     <div class="edu-header">
                         <h3 class="edu-degree">SD</h3>
                         <div class="edu-school">050 CIBIRU</div>
-                        <div class="edu-meta">
-                            2012 — 2018
-                        </div>
+                        <div class="edu-meta">2012 — 2018</div>
                     </div>
                     <img src="Foto/Sd050.jpeg" alt="Cibiru Logo" class="edu-image">
                 </article>
             </div>
         </section>
 
+        <!-- SECTION SKILLS -->
         <section id="skills" class="skills">
             <h2 class="skills-title">
                 <span class="dot"></span> Skills
             </h2>
 
+            <!-- Grid daftar skill -->
             <div class="skills-grid">
                 <div class="skill-card">
                     <i class="fa-solid fa-code"></i>
@@ -170,11 +174,13 @@
             </div>
         </section>
 
+        <!-- SECTION PORTFOLIO -->
         <section id="portfolio" class="portfolio">
             <h2 class="portfolio-title">
                 <span class="dot"></span> Projects / Portfolio
             </h2>
 
+            <!-- Daftar project -->
             <div class="portfolio-grid">
 
                 <!-- Project 1 -->
@@ -182,10 +188,7 @@
                     <img src="Foto/WebManga.png" alt="ForgeCade" class="project-img">
                     <div class="project-content">
                         <h3>Web E-commerce</h3>
-                        <p>
-                            Website e-commerce sederhana untuk menjual komik online, dengan fitur keranjang
-                            belanja, sistem pembayaran, dan halaman admin untuk mengelola produk.
-                        </p>
+                        <p>Website e-commerce sederhana untuk menjual komik online...</p>
                         <div class="project-links">
                             <a href="#" class="demo">Durasi - Sekarang</a>
                         </div>
@@ -197,10 +200,7 @@
                     <img src="Foto/190.png" alt="Block Blast Game" class="project-img">
                     <div class="project-content">
                         <h3>Too Many Game</h3>
-                        <p>
-                            Game dengan konsep "TOO Many" yang diselenggarakan oleh GIM ITB, dimana kita mengambil topik
-                            DoppelWorker, yang artinya satu pemain melakukan beberapa pekerjaan sekaligus.
-                        </p>
+                        <p>Game dengan konsep "TOO Many" ...</p>
                         <div class="project-links">
                             <a href="#" class="demo">Durasi - 1 minggu</a>
                         </div>
@@ -212,10 +212,7 @@
                     <img src="Foto/TapNBlast.png" alt="Block Blast Game" class="project-img">
                     <div class="project-content">
                         <h3>Tap N'Blast Game</h3>
-                        <p>
-                            Game puzzle 2D dengan sistem grid, block placement, leaderboard, points, yang mirip
-                            dengan game block Blast pada umumnya. Menggunakan library raylib dan bahasa C.
-                        </p>
+                        <p>Game puzzle 2D dengan sistem grid...</p>
                         <div class="project-links">
                             <a href="#" class="demo">Durasi - 1 bulan</a>
                             <a href="https://github.com/harifky/TapNBlast" class="code" target="_blank">Source Code</a>
@@ -223,15 +220,12 @@
                     </div>
                 </article>
 
+                <!-- Project 4 -->
                 <article class="project-card">
                     <img src="Foto/Crossing.png" alt="Block Blast Game" class="project-img">
                     <div class="project-content">
                         <h3>Crossing The Road Game</h3>
-                        <p>
-                            Game bertema "Why Did The Chicken Cross The Road?" yang terinspirasi dari game Crossing the
-                            road. Pemain mengendalikan seekor
-                            ayam untuk menyeberangi jalan yang sibuk dan sungai dengan berbagai rintangan.
-                        </p>
+                        <p>Game bertema "Why Did The Chicken Cross The Road?" ...</p>
                         <div class="project-links">
                             <a href="#" class="demo">Durasi - 3 bulan</a>
                             <a href="https://github.com/AndreasDevanPanduNarasamdya/Proyek2_CrossingTheRoad"
@@ -239,16 +233,15 @@
                         </div>
                     </div>
                 </article>
-
             </div>
         </section>
-
-
     </main>
 
+    <!-- FOOTER -->
     <footer>
         <div class="footer-container" id="contact">
             <p class="footer-p">Contact me on:</p>
+            <!-- Link sosial media di footer -->
             <div class="social-links">
                 <a href="https://github.com/MFaizR77" target="_blank">GitHub</a>
                 <a href="https://instagram.com/mfaiz_ramd" target="_blank">Instagram</a>
@@ -259,5 +252,4 @@
     </footer>
 
 </body>
-
 </html>

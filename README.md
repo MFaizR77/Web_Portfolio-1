@@ -21,7 +21,7 @@ Selain itu, portofolio ini menunjukkan keahlian dalam **pemrograman, pengembanga
 ---
 
 ## 🔧 Bukti Modifikasi Framework / Library
-Walaupun proyek ini dibuat **tanpa framework Css dan Javascript**, terdapat penggunaan eksternal library:
+Walaupun proyek ini dibuat **tanpa framework CSS dan Javascript**, terdapat penggunaan eksternal library:
 - **Font Awesome**: untuk ikon-ikon (GitHub, Instagram, WhatsApp, dll.)
 - **Google Fonts**: penggunaan font `Poppins`
 - **CSS Animation Custom**: modifikasi animasi `@keyframes` untuk efek **typewriter** yang menampilkan teks berganti-ganti:
