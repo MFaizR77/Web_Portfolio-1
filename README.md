@@ -45,7 +45,7 @@ Walaupun proyek ini dibuat **tanpa framework Css dan Javascript**, terdapat peng
 ## 🌍 Deployment  
 Website ini dapat diakses secara online melalui link berikut:  
 
-🔗 **[Portfolio Website Live Demo](#)**  
+🔗 **[Portfolio Website Live Demo](https://faiz-cv.netlify.app/)**  
 
 ---
 
