@@ -55,5 +55,5 @@ Website ini dapat diakses secara online melalui link berikut:
 - **About Me** → biodata singkat dan informasi tambahan  
 - **Education** → timeline riwayat pendidikan  
 - **Skills** → daftar keterampilan dalam bentuk grid card  
-- **Portfolio** → showcase 3 proyek beserta gambar dan deskripsi  
+- **Portfolio** → showcase 4 proyek beserta gambar dan deskripsi  
 - **Footer** → link sosial media + copyright  
